@@ -1,5 +1,9 @@
 # Python-chatbot
 Word2vec yöntemiyle chatbot oluşturma.
+
+word2vec modeli linki : https://drive.google.com/drive/folders/1IBMTAGtZ4DakSCyAoA4j7Ch0Ft1aFoww
+!!!! Modelle py uzantılı dosyalar aynı klasörde olsun.
+
 * Burada ilk olarak elimizdeki liste halinde tutulan soru- cevap senaryolarındaki soru kısmından stopwords kelimeleri çıkartıyoruz. 
 * Daha sonra noktalama işaretlerini kaldırıp word2vec modeliyle vektörize hale getiriyoruz. 
 * Daha sonra aynı cümledeki kelime vektörlerini birbiriyle toplayıp bu sözlük yapısına her bir senaryo için yeni eleman olarak ekliyoruz.
